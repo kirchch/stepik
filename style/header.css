@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.header {
+    width: 100%;
+    background-color: #007765;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 21;
+    transition: height 1s ease-in-out;
+}
+.containermain-main {
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.navigation-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    text-decoration: none;
+}
+nav p {
+    display: inline-block;
+}
+.menu {
+    color: #fff;
+    font-size: 24px;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #fff;
+}
+.section {
+    background: url(./image.png) center no-repeat;
+    background-size: cover;
+    margin-top: 84px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.main-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.problem {
+    background-color: #EEEEEE;
+    padding-top: 55px;
+    padding-bottom: 92px;
+}
+.heading-title {
+    margin-top: 48px;
+    color: #007765;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+.text-problem {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.p-cit {
+    margin-bottom: 0;
+}
+.citate {
+    font-weight: bold;
+}
+.hero {
+    background: url(./image2.png) center no-repeat;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.hero-message {
+    width: 100%;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+.ppc {
+    background-color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 92px;
+}
+.heading-title {
+    margin-top: 48px;
+    color: #007765;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+.ppc-main-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.ppc-logo {
+    float: left;
+    padding-right: 48px;
+}
+img {
+    border-style: none;
+}
+.team {
+    background-color: #EEEEEE;
+    padding-top: 58px;
+    padding-bottom: 112px;
+}
+.heading__title {
+    margin-top: 48px;
+    color: #007765;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+}
+.team__cards {
+    padding-top: 58px;
+}
+.figure {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cards__img {
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 55px;
+}
+.cards__foto {
+    width: 168px;
+    height: 168px;
+}
+.name__card {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+.footer {
+    padding-top: 50px;
+    background-color: #333;
+    height: 176px;
+    text-align: center;
+}
+.main__container {
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.text__footer {
+    width: 540px;
+    height: 64px;
+    margin: 0 auto;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
